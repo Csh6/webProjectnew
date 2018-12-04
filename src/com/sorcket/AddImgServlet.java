@@ -22,10 +22,10 @@ import java.util.List;
 public class AddImgServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //请求代码
         req.setCharacterEncoding("utf-8");
-        resp.setContentType("text/html;charset=UTF-8");
-        //请求乱码
 
+        resp.setContentType("text/html;charset=UTF-8");
         //相应乱码
         resp.setCharacterEncoding("utf-8");
         //创建商品实例化对象

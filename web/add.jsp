@@ -56,11 +56,11 @@
                 </tr>
                 <tr>
                     <td>商品介绍</td>
-                    <td><input type="file" name="sImg" /><span>${message}</span></td>
+                    <td><input id="shop_img" type="file" name="sImg" /><span>${message}</span></td>
                 </tr>
                 <tr>
                     <td><textarea name="sDes" style="height: 90px;width: 70px"></textarea></td>
-                    <td><textarea name="sImg" style="height: 90px;width: 70px"></textarea></td>
+                    <td><textarea id="img" name="sImg" style="height: 90px;width: 70px"></textarea></td>
                 <tr>
 
                 <tr>

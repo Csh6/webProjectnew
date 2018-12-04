@@ -23,7 +23,9 @@
         <h4>管理员的增删</h4>
     </div>
     <div id="up3">
-        <select><option>用户</option></select>
+        <a href="index.jsp">重新登录</a>
+        <br/>
+        <a href="/LoginoutServlet">注销</a>
     </div>
 </div>
 <div id="bottom" >
